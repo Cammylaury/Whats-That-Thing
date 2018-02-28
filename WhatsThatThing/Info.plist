@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow us to use your photo library to detect objects in images.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to use your camera to detect objects.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need to use your microphone to help detect objects.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

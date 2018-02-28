@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263193E92046F23A00014FD5 /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 263193E82046F23A00014FD5 /* Food101.mlmodel */; };
 		26C386122046E5AB008026CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C386112046E5AB008026CE /* AppDelegate.swift */; };
 		26C386142046E5AB008026CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C386132046E5AB008026CE /* ViewController.swift */; };
 		26C386172046E5AB008026CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C386152046E5AB008026CE /* Main.storyboard */; };
 		26C386192046E5AB008026CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C386182046E5AB008026CE /* Assets.xcassets */; };
 		26C3861C2046E5AB008026CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C3861A2046E5AB008026CE /* LaunchScreen.storyboard */; };
+		26C386242046E5EC008026CE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26C386232046E5EC008026CE /* Inceptionv3.mlmodel */; };
+		26C386262046F0FA008026CE /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26C386252046F0F9008026CE /* MNIST.mlmodel */; };
+		26C386282046F11F008026CE /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26C386272046F11E008026CE /* MobileNet.mlmodel */; };
+		D99434EB00ED494AD4A7DB7E /* Pods_WhatsThatThing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E7357B363E6E4CA3BF85F1 /* Pods_WhatsThatThing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		263193E82046F23A00014FD5 /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		26C3860E2046E5AB008026CE /* WhatsThatThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsThatThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C386112046E5AB008026CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26C386132046E5AB008026CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		26C386182046E5AB008026CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C3861B2046E5AB008026CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C3861D2046E5AB008026CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C386232046E5EC008026CE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		26C386252046F0F9008026CE /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		26C386272046F11E008026CE /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		D1E7357B363E6E4CA3BF85F1 /* Pods_WhatsThatThing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsThatThing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A83F12770C75D7DCF036C /* Pods-WhatsThatThing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsThatThing.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsThatThing/Pods-WhatsThatThing.release.xcconfig"; sourceTree = "<group>"; };
+		E4D40798D7FE1B223D3F84CE /* Pods-WhatsThatThing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsThatThing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsThatThing/Pods-WhatsThatThing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99434EB00ED494AD4A7DB7E /* Pods_WhatsThatThing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				26C386102046E5AB008026CE /* WhatsThatThing */,
 				26C3860F2046E5AB008026CE /* Products */,
+				3453C40E8CF7AC993A2D94C1 /* Pods */,
+				C1D74A091CFB5E1DACFF706F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,37 @@
 				26C386182046E5AB008026CE /* Assets.xcassets */,
 				26C3861A2046E5AB008026CE /* LaunchScreen.storyboard */,
 				26C3861D2046E5AB008026CE /* Info.plist */,
+				26C386292046F134008026CE /* CoreML Models */,
 			);
 			path = WhatsThatThing;
+			sourceTree = "<group>";
+		};
+		26C386292046F134008026CE /* CoreML Models */ = {
+			isa = PBXGroup;
+			children = (
+				26C386232046E5EC008026CE /* Inceptionv3.mlmodel */,
+				26C386252046F0F9008026CE /* MNIST.mlmodel */,
+				26C386272046F11E008026CE /* MobileNet.mlmodel */,
+				263193E82046F23A00014FD5 /* Food101.mlmodel */,
+			);
+			path = "CoreML Models";
+			sourceTree = "<group>";
+		};
+		3453C40E8CF7AC993A2D94C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D40798D7FE1B223D3F84CE /* Pods-WhatsThatThing.debug.xcconfig */,
+				DB2A83F12770C75D7DCF036C /* Pods-WhatsThatThing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1D74A091CFB5E1DACFF706F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7357B363E6E4CA3BF85F1 /* Pods_WhatsThatThing.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26C386202046E5AB008026CE /* Build configuration list for PBXNativeTarget "WhatsThatThing" */;
 			buildPhases = (
+				CD273C775A3FC1D76F3376FE /* [CP] Check Pods Manifest.lock */,
 				26C3860A2046E5AB008026CE /* Sources */,
 				26C3860B2046E5AB008026CE /* Frameworks */,
 				26C3860C2046E5AB008026CE /* Resources */,
+				3C70FE704321077508D98C28 /* [CP] Embed Pods Frameworks */,
+				8723DE82294F1A41D7A5B85D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +178,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C70FE704321077508D98C28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsThatThing/Pods-WhatsThatThing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Lumina/Lumina.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lumina.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsThatThing/Pods-WhatsThatThing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8723DE82294F1A41D7A5B85D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsThatThing/Pods-WhatsThatThing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD273C775A3FC1D76F3376FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsThatThing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26C3860A2046E5AB008026CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C386262046F0FA008026CE /* MNIST.mlmodel in Sources */,
+				26C386282046F11F008026CE /* MobileNet.mlmodel in Sources */,
 				26C386142046E5AB008026CE /* ViewController.swift in Sources */,
+				263193E92046F23A00014FD5 /* Food101.mlmodel in Sources */,
+				26C386242046E5EC008026CE /* Inceptionv3.mlmodel in Sources */,
 				26C386122046E5AB008026CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +377,7 @@
 		};
 		26C386212046E5AB008026CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D40798D7FE1B223D3F84CE /* Pods-WhatsThatThing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +393,7 @@
 		};
 		26C386222046E5AB008026CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2A83F12770C75D7DCF036C /* Pods-WhatsThatThing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
